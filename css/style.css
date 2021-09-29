@@ -54,7 +54,7 @@ p{
 a{
   font-size: 16px;
   color: #B21F50;
-
+  text-decoration-style: wavy;
 }
 
 *:focus{
@@ -73,9 +73,10 @@ td{
 .colhead{
   color: #FFFFFF;
   min-width: 125px;
-  padding: 10px;
   text-transform: uppercase;
   background-color: #7e0825;
+  text-align: center;
+  padding: 10px 0
 }
 
 .rowhead{
