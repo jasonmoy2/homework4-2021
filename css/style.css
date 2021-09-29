@@ -73,10 +73,11 @@ td{
 .colhead{
   color: #FFFFFF;
   min-width: 125px;
+  padding: 10px;
   text-transform: uppercase;
   background-color: #7e0825;
   text-align: center;
-  padding: 10px 0
+  vertical-align: middle;
 }
 
 .rowhead{
@@ -123,13 +124,13 @@ tr:hover{
   background-color: rgba(126, 8, 37, 0.25);
 }
 
-
 footer{
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: fixed;
+  right: 0;
   bottom: 0;
 }
